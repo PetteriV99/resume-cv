@@ -1,2 +1,2 @@
 # resume-cv
-My resume / CV using LateX
+My resume / CV using LaTeX
