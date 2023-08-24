@@ -1,0 +1,93 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[left=0.4in, right=0.4in, top=0.3in, bottom=0.3in]{geometry}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+
+% Define colors
+\definecolor{darkblue}{RGB}{0,0,128}
+
+% Set up hyperref
+\hypersetup{
+    colorlinks=true,
+    linkcolor=darkblue,
+    urlcolor=darkblue
+}
+
+% Adjust section and subsection formatting
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[{\titlerule[0.8pt]}]
+\titleformat{\subsection}{\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\begin{center}
+    \textbf{\LARGE Petteri Vänttinen} \\
+    Address: ADDRESS \\
+    Phone: PHONE \\
+    Email: EMAIL \\
+    LinkedIn: \href{https://www.linkedin.com/in/petteri-vanttinen-a4b388272/}{linkedin.com/in/petteri-vanttinen-a4b388272} \\
+    GitHub: \href{https://github.com/PetteriV99}{github.com/PetteriV99}
+\end{center}
+
+\section*{Profile}
+
+I am open for new challenges and projects as a recently graduated engineer. I prefer learning by doing and experimenting with my tech stack. I am a self-learner who always looks for possible improvements. I always ask for help if I hit a road block that I cannot solve myself.
+
+\section*{Education}
+\subsection*{\textbf{Turku University of Applied Sciences}, Degree Programme in Information and Communication Technology, Sep 2019 -- June 2023}
+\begin{itemize}
+    \item Competence track in Software Engineering and Project Management. Project work done in \href{https://www.turkuamk.fi/fi/artikkelit/3090/thefirma-tarjoaa-palveluita-asiakkaille-ja-mahdollisuuksia-opiskelijoille/}{theFirma project office}. Thesis on \href{https://www.theseus.fi/handle/10024/803366}{integration of web services}.
+    \item PMAF Project Management Foundation Certificate (IPMA D)
+\end{itemize}
+
+\section*{Projects}
+\subsection*{Full Stack Open Parts 0-5, Full Stack Web Development, Jul 2023 -- Aug 2023}
+\begin{itemize}
+    \item Completed the core part of the \href{https://fullstackopen.com/en/part0/general_info}{course}.
+    \item Technologies used: React, Node, Express, Jest, Cypress.
+\end{itemize}
+
+\subsection*{Diginavi 2.0, May 2023 -- Jun 2023}
+\begin{itemize}
+    \item Developed as full-stack, web application project for theFirma. Worked on implementing recovery and feedback processes for REST API and React frontend. Used Figma to design new pages.
+    \item Build a web server for deployment using Linux, Docker and nginx. Made a Gitlab devops pipeline for automatically testing and building of Docker images. 
+\end{itemize}
+
+\subsection*{EntreFox Mobile Application, Sep 2022 -- Dec 2022}
+\begin{itemize}
+    \item Developed for theFirma using React Native. Worked on finding and fixing issues. Lead a small team of new students and gave small lessons on the used technologies and application development.
+\end{itemize}
+
+\section*{Experience}
+\subsection*{Kushiro National College of Technology, Exchange Studies, May 2022 -- Aug 2022}
+\begin{itemize}
+    \item Implemented a Python application using tkinter GUI framework. Completed a small research project on typical loading bars in user interfaces. Designed application using Figma.
+\end{itemize}
+\subsection*{Finserve Oy, Developer Intern, May 2021 -- Jun 2021}
+\begin{itemize}
+    \item Worked on changing page contents and layouts in Wordpress. Designed a web site using Figma.
+\end{itemize}
+\subsection*{Tietokonekauppa Oy, Developer Intern, Jul 2020 -- Aug 2020}
+\begin{itemize}
+    \item Repaired computers and other IT equipment by cleaning, changing components and updating software. Provided help in the main store, collecting and sending packages for the web store.
+\end{itemize}
+
+\section*{Skills}
+\begin{itemize}
+    \item JavaScript, Python, Web Development, React / React Native, Node.js, MongoDB, Postgres, Docker, Git, Figma
+\end{itemize}
+
+\section*{Languages}
+\begin{itemize}
+    \item Finnish: Native
+    \item English: Proficient
+\end{itemize}
+
+\end{document}
